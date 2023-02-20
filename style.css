@@ -10,9 +10,12 @@ header{
     background-color: brown;
 }
 .nav{
+    font-family: 'Babylonica', cursive;
+    font-family: 'Tourney', cursive;
     font-size: 400%;
     text-align: center;
     padding-top: 2%;
+    color: antiquewhite;
 }
 .navbar{
     grid-column: 4/7;
@@ -81,4 +84,9 @@ header{
 #akita{
     text-align: center;
 }
-
+.opciones{
+    padding: 0% 30% 0% 8%;
+}
+.click{
+    padding: 0% 0% 0% 30%;
+}
