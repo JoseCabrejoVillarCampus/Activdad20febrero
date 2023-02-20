@@ -1,0 +1,84 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background-image: url(./img/4K-Neon-City-Wallpaper-HD.png);
+}
+header{
+    grid-column: 1/4;
+    background-color: brown;
+}
+.nav{
+    font-size: 400%;
+    text-align: center;
+    padding-top: 2%;
+}
+.navbar{
+    grid-column: 4/7;
+    font-size: 120%;
+    background-color: rgb(17, 71, 107);
+    text-align: end;
+    padding-top: 6%;
+}
+#link{
+    color: beige;
+    grid-column-end: 2;
+}
+.sec1{
+    grid-column: 1/ 4;
+    grid-row-start: 2;
+    grid-row-end: 9;
+    background-image: url(./img/280-2809080_bass-guitars-wallpaper-bajo-electrico-fondos-de-pantalla.jpg);
+    background-size: cover;
+    border-radius: 10%;
+}
+.sec2{
+    grid-column: 4/ 7;
+    grid-row-start: 2;
+    grid-row-end: 9;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+#venta{
+    text-align: center;
+}
+#akita{
+    text-justify:distribute
+}
+.sec3{
+    grid-column: 4/7;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background-color: rgb(79, 124, 109);
+    padding-top: 3%;
+}
+.sec4{
+    grid-column: 6/7;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background-color: rgb(41, 92, 92);
+    padding-top: 16%;
+}
+.sec51{
+    grid-column: 1/3;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background-color: aquamarine;
+}
+.sec52{
+    grid-column: 3/5;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background-color: rgb(91, 136, 33);
+}
+.sec53{
+    grid-column: 5/7;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    background-color: rgb(75, 23, 95);
+}
+#akita{
+    text-align: center;
+}
+
