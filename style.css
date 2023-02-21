@@ -4,10 +4,10 @@ body{
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     background-image: url(./img/4K-Neon-City-Wallpaper-HD.png);
+    object-fit: contain;
 }
 header{
     grid-column: 1/4;
-    background-color: brown;
 }
 .nav{
     font-family: 'Babylonica', cursive;
@@ -17,16 +17,23 @@ header{
     padding-top: 2%;
     color: antiquewhite;
 }
-.navbar{
+#navbar{
     grid-column: 4/7;
     font-size: 120%;
-    background-color: rgb(17, 71, 107);
     text-align: end;
-    padding-top: 6%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-right: 10%;
 }
 #link{
+    font-size: 100%;
     color: beige;
+    background-color: rgba(137, 43, 226, 0);
     grid-column-end: 2;
+    border: none;
+}
+#link:hover{
+    background-color: crimson;
 }
 .sec1{
     grid-column: 1/ 4;
@@ -40,7 +47,6 @@ header{
     grid-column: 4/ 7;
     grid-row-start: 2;
     grid-row-end: 9;
-    background-color: blueviolet;
     color: aliceblue;
 }
 #venta{
@@ -53,14 +59,12 @@ header{
     grid-column: 4/7;
     grid-row-start: 8;
     grid-row-end: 9;
-    background-color: rgb(79, 124, 109);
     padding-top: 3%;
 }
 .sec4{
     grid-column: 6/7;
     grid-row-start: 8;
     grid-row-end: 9;
-    background-color: rgb(41, 92, 92);
     padding-top: 16%;
 }
 .sec51{
@@ -85,8 +89,14 @@ header{
     text-align: center;
 }
 .opciones{
-    padding: 0% 30% 0% 8%;
+    justify-content: center;
+}
+#op{
+    color: aqua;
+    border:none;
+    border-radius: 3%;
+    background-color: rgba(159, 84, 229, 0.822);
 }
 .click{
-    padding: 0% 0% 0% 30%;
+    justify-content: center;
 }
