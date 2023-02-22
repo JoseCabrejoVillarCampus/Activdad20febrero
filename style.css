@@ -1,102 +1,203 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    background-image: url(./img/4K-Neon-City-Wallpaper-HD.png);
-    object-fit: contain;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./img/280-2809080_bass-guitars-wallpaper-bajo-electrico-fondos-de-pantalla.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin:0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+    font-size: 3.5em;
+    text-align: center;
+}
+#sput{
+    margin-top: 30%;
+}
+h3{
+    color:cornflowerblue;
+    font-size: 2.7em;
+    text-align: center;
+}
+#p{  background-color: rgba(0, 0, 0, 0.6);
+    color: azure;
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.429);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.429);
+    color: orangered;
+    background-color:darkgray;
+}   
+button:hover{
+    color: darkgray;
+    background-color: orangered;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
 }
 header{
-    grid-column: 1/4;
+    background-color: rgba(30, 28, 27, 0.642);
+
 }
-.nav{
-    font-family: 'Babylonica', cursive;
-    font-family: 'Tourney', cursive;
-    font-size: 400%;
+header .logo{
+    margin:0%;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: tomato;
+    font-size: 3em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding-top: 2%;
-    color: antiquewhite;
+    padding-bottom: 25px;
 }
-#navbar{
-    grid-column: 4/7;
-    font-size: 120%;
-    text-align: end;
+header a{
+    font-size: 1.3em;
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color:tomato;
+}
+header a:hover{
+    color:black;
+}
+
+#father{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+#a, #b{
+    height: 90vh;
+}
+#b{
+    padding-top: 0%;
+}
+.text{
+    padding-top: 1%;
+}
+#opciones{
     padding-top: 5%;
-    padding-bottom: 2%;
-    padding-right: 10%;
-}
-#link{
-    font-size: 100%;
-    color: beige;
-    background-color: rgba(137, 43, 226, 0);
-    grid-column-end: 2;
-    border: none;
-}
-#link:hover{
-    background-color: crimson;
-}
-.sec1{
-    grid-column: 1/ 4;
-    grid-row-start: 2;
-    grid-row-end: 9;
-    background-image: url(./img/280-2809080_bass-guitars-wallpaper-bajo-electrico-fondos-de-pantalla.jpg);
-    background-size: cover;
-    border-radius: 10%;
-}
-.sec2{
-    grid-column: 4/ 7;
-    grid-row-start: 2;
-    grid-row-end: 9;
-    color: aliceblue;
-}
-#venta{
-    text-align: center;
-}
-#akita{
-    text-justify:distribute
-}
-.sec3{
-    grid-column: 4/7;
-    grid-row-start: 8;
-    grid-row-end: 9;
-    padding-top: 3%;
-}
-.sec4{
-    grid-column: 6/7;
-    grid-row-start: 8;
-    grid-row-end: 9;
-    padding-top: 16%;
-}
-.sec51{
-    grid-column: 1/3;
-    grid-row-start: 9;
-    grid-row-end: 10;
-    background-color: aquamarine;
-}
-.sec52{
-    grid-column: 3/5;
-    grid-row-start: 9;
-    grid-row-end: 10;
-    background-color: rgb(91, 136, 33);
-}
-.sec53{
-    grid-column: 5/7;
-    grid-row-start: 9;
-    grid-row-end: 10;
-    background-color: rgb(75, 23, 95);
-}
-#akita{
-    text-align: center;
-}
-.opciones{
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: center;
+    
 }
 #op{
-    color: aqua;
-    border:none;
-    border-radius: 3%;
-    background-color: rgba(159, 84, 229, 0.822);
+    font-size: 1.3em;
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color:cornflowerblue;
 }
-.click{
+.ultima{
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+}
+#ultima{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    padding-top: 20%;
+}
+#sp{
+    color: aliceblue;
+    display: flex;
     justify-content: center;
+    font-size: 1.5em;
+}
+#copy{
+    background-color: rgba(223, 83, 22, 0.441);
+    color: rgb(228, 217, 216);
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.429);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.429);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.646);
+    background-size: cover;    
+}
+h4, .p{
+    text-align: center;
+    font-size: 1.4em;
+    justify-content: center;
+    margin-top: 20%;
+    justify-content: center;
+}
+.img-container{
+    align-items: center;
+    justify-content: center;
+    padding-left: 8%;
+}
+.title{
+    padding-top: 10%;
+    margin-top: 0%;
+}
+
+.button logo{
+    padding-top: 10%;
+}
+
+h5{
+    font-size: 3em;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 8%;
+}
+.svg{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-top: 0%;
+}
+svg{
+    height: 50px;
+    width: 50px;
+}
+
+@media (min-width:720px){
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 20px;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0%;
+        padding-right: 20px;
+    }
 }
